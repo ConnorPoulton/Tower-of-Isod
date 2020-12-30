@@ -49,4 +49,17 @@ public class CustomCommands
             return new ConsoleOutput("Value set", ConsoleOutput.OutputType.Log);
         }
     }
+
+    [ConsoleCommand("setbool", "Set a Lua database bool variable")]
+    class SetBool : Command
+    {
+        [CommandParameter("Variable to change")]
+        public string luaVariable;
+
+        public override ConsoleOutput Logic()
+        {
+            DialogueLua.SetVariable(luaVariable, !(DialogueLua.GetVariable(luaVariable).asBool));
+            return new ConsoleOutput("value toggled to " + DialogueLua.GetVariable(luaVariable).asBool.ToString(), ConsoleOutput.OutputType.Log);
+        }
+    }
 }
