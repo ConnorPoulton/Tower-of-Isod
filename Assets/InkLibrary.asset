@@ -26,10 +26,6 @@ MonoBehaviour:
     jsonAssetDirectory: {fileID: 0}
     jsonAsset: {fileID: 4900000, guid: 28e72adf86b71fc43b722f078571c353, type: 3}
   - compileAutomatically: 0
-    inkAsset: {fileID: 102900000, guid: 5032a6029b1a3f544b0e153b4e481d6c, type: 3}
-    jsonAssetDirectory: {fileID: 0}
-    jsonAsset: {fileID: 0}
-  - compileAutomatically: 0
     inkAsset: {fileID: 102900000, guid: 640721205ace63c4ca1264e0a8dfaf24, type: 3}
     jsonAssetDirectory: {fileID: 0}
     jsonAsset: {fileID: 4900000, guid: 2a8a8724f16dc9b4da08116746029669, type: 3}
@@ -37,21 +33,9 @@ MonoBehaviour:
     inkAsset: {fileID: 102900000, guid: bd68c442cab920c4e8e5684f5f65b01c, type: 3}
     jsonAssetDirectory: {fileID: 0}
     jsonAsset: {fileID: 4900000, guid: f77b27bc4103e404ca30eb12383a87da, type: 3}
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 5032a6029b1a3f544b0e153b4e481d6c, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 0}
   pendingCompilationStack: []
-  compilationStack:
-  - state: 2
-    immediate: 0
-    inkFile:
-      compileAutomatically: 0
-      inkAsset: {fileID: 102900000, guid: bd68c442cab920c4e8e5684f5f65b01c, type: 3}
-      jsonAssetDirectory: {fileID: 0}
-      jsonAsset: {fileID: 4900000, guid: f77b27bc4103e404ca30eb12383a87da, type: 3}
-    compiledJson: '{"inkVersion":19,"root":[["\n",{"->":"entry"},["done",{"#f":5,"#n":"g-0"}],null],"done",{"entry":[["^\"The
-      sun was shining on the sea,","\n","^Shining with all his might:","\n","^He
-      did his very best to make","\n","^The billows smooth and bright --","\n","^And
-      this was odd, because it was","\n","^The middle of the night.","\n","ev","str","^go
-      back to Test_01","/str","/ev",{"*":".^.c-0","flg":4},{"c-0":["\n","ev","str","^Next_Scene","/str","str","^Test_01","/str",{"x()":"SetStringVariable","exArgs":2},"pop","/ev","\n","end",{"#f":5}]}],{"#f":1}],"SetStringVariable":[{"temp=":"y"},{"temp=":"x"},"ev",-1,"/ev","~ret",{"#f":1}],"SetIntVariable":[{"temp=":"y"},{"temp=":"x"},"ev",-1,"/ev","~ret",{"#f":1}],"GetIntVariable":[{"temp=":"x"},"ev",-1,"/ev","~ret",{"#f":1}],"#f":1}],"listDefs":{}}'
-    inkAbsoluteFilePath: C:/Users/ianpo/Tower of Isod/Assets/Dialogue/Ink/Test_02.ink
-    jsonAbsoluteFilePath: C:/Users/ianpo/Tower of Isod/Assets/Dialogue/JSON/Test_02.json
-    logOutput: []
-    unhandledErrorOutput: []
+  compilationStack: []

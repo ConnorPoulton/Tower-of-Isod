@@ -87,6 +87,34 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 4
+    fields:
+    - title: Name
+      value: Last_Scene
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: none
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 5
+    fields:
+    - title: Name
+      value: Current_Scene
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: none
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   - id: 3
     fields:
     - title: Name
